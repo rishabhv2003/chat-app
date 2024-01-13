@@ -2,5 +2,5 @@
 .App {
     min-height: 100vh;
     display: flex;
-    background-image: url("./background_image.jpg");
+    background-image: url("./assets/background_image.jpg");
 }

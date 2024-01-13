@@ -1,7 +1,14 @@
 const express = require('express');
 const app = express();
 const chats = require('./data/data');
+const connectDB = require('./config/db');
+const userRoutes = require('./routes/userRoutes');
+
+
 require('dotenv').config();
+connectDB();
+
+app.use(express.json()); // this is for acceptin JSON data
 
 app.get('/', (req, res) => {
     res.send("api is running");

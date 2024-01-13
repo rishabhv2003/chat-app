@@ -26,7 +26,7 @@ const Login = () => {
                         Password
                     </FormLabel>
                     <InputGroup>
-                        <Input placeholder={"Enter your password"} onChange={(e) => setEmail(e.target.value)} type={show ? 'text' : 'password'} />
+                        <Input placeholder={"Enter your password"} onChange={(e) => setPassword(e.target.value)} type={show ? 'text' : 'password'} />
                         <InputRightElement width={"4.5rem"}>
                             <Button h="1.75rem" size="sm" onClick={handleClick}>
                                 {show ? "Hide" : "Show"}
@@ -39,7 +39,7 @@ const Login = () => {
                         Password
                     </FormLabel>
                     <InputGroup>
-                        <Input placeholder={"Enter your password"} onChange={(e) => setEmail(e.target.value)} type={show ? 'text' : 'password'} />
+                        <Input placeholder={"Enter your password"} onChange={(e) => setConfirmpassword(e.target.value)} type={show ? 'text' : 'password'} />
                         <InputRightElement width={"4.5rem"}>
                             <Button h="1.75rem" size="sm" onClick={handleClick}>
                                 {show ? "Hide" : "Show"}
